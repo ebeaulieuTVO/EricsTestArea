@@ -17,7 +17,7 @@ jobs:
           node-version: 22
 
       - name: Run Script
-        run: node CreateText.js
+        run: node Scripts/CreateText.js
 
       - name: Show Output
         run: cat output/hello.txt
