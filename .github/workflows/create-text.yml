@@ -19,6 +19,11 @@ jobs:
       - name: Run Script
         run: node Scripts/CreateText.js
 
+      - name: Show Files
+        run: |
+          pwd
+          find .
+
       - name: Show Output
         run: cat output/hello.txt
 
